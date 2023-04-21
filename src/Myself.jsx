@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-import diego from "../assets/diego_photo.png";
+import diego from "/src/assets/diego_photo.png";
 function Myself() {
   return (
     <div className="my-self">

@@ -28,7 +28,12 @@ import photo_chatgpt from "/src/assets/chat-gpt.png";
 import photo_kubernetes from "/src/assets/kubernetes.png";
 import photo_googlecloud from "/src/assets/google-cloud.png";
 
-
+import photo_pandas from './assets/pandas.png';
+import photo_numpy from './assets/numpy.png';
+import photo_matplotlib from './assets/matplotlibb.png';
+import photo_scikitlearn from './assets/skckitleanr.png';
+import photo_keras from './assets/keras.png';
+import photo_fastapi from './assets/fast-api.png';
 
 
 
@@ -106,19 +111,19 @@ function Skills() {
       <h2 className='my-skills-subtiitle2'>Libraries</h2>
       <div className='my-skills-set'>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src="/src/assets/pandas.png"
+        <div className='my-skill-image' > <img src={photo_pandas}
         alt="Pandas"/> <p >Pandas</p> </div>
-        <div className='my-skill-image' > <img src="/src/assets/tensorflow.png"
+        <div className='my-skill-image' > <img src={photo_tensorflow}
         alt="Tensorflow"/> <p >Tensorflow</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/numpy.png"
+        <div className='my-skill-image' > <img src={photo_numpy}
         alt="Numpy"/> <p >Numpy</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/matplotlibb.png"
+        <div className='my-skill-image' > <img src={photo_matplotlib}
         alt="Matplotlib"/> <p >Matplotlib</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/skckitleanr.png"
+        <div className='my-skill-image' > <img src={photo_scikitlearn}
         alt="Scikitlearn"/> <p >ScikitLearn</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/keras.png"
+        <div className='my-skill-image' > <img src={photo_keras}
         alt="Keras"/> <p >Keras</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/fast-api.png"
+        <div className='my-skill-image' > <img src={photo_fastapi}
         alt="FastAPI"/> <p >FastAPI</p></div>
 
        

@@ -18,9 +18,15 @@ import photo_css from "/src/assets/css.png";
 import photo_react from "/src/assets/react.png";
 import photo_ros2 from "/src/assets/ros2.png";
 import photo_platformio from "/src/assets/platformio.png";
+import photo_r from "/src/assets/r_lan.png";
+import photo_azure from "/src/assets/azure.png";
+import photo_aws from "/src/assets/aws.png";
 
-
-
+import photo_esp from "/src/assets/esp.png";
+import photo_edgeimpulse from "/src/assets/edge-impulse.png";
+import photo_chatgpt from "/src/assets/chat-gpt.png";
+import photo_kubernetes from "/src/assets/kubernetes.png";
+import photo_googlecloud from "/src/assets/google-cloud.png";
 
 
 
@@ -72,26 +78,26 @@ function Skills() {
         alt="ROS2"/> <p >ROS2</p></div>
         <div className='my-skill-image' > <img src={photo_platformio}
         alt="PlatformIO"/> <p >PlatformIO</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/r_lan.png"
+        <div className='my-skill-image' > <img src={photo_r}
         alt="R_languague"/> <p >R</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/azure.png"
+        <div className='my-skill-image' > <img src={photo_azure}
         alt="Azure"/> <p >Azure</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/aws.png"
+        <div className='my-skill-image' > <img src={photo_aws}
         alt="AWS"/> <p >AWS</p> </div>
         
         </div>
 
 
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src="/src/assets/esp.png"
+        <div className='my-skill-image' > <img src={photo_esp}
         alt="ESP32"/> <p >ESP32</p> </div>
-        <div className='my-skill-image' > <img src="/src/assets/edge-impulse.png"
+        <div className='my-skill-image' > <img src={photo_edgeimpulse}
         alt="Edge Impulse"/> <p >EdgeImpulse</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/chat-gpt.png"
+        <div className='my-skill-image' > <img src={photo_chatgpt}
         alt="ChatGPT"/> <p >ChatGPT</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/kubernetes.png"
+        <div className='my-skill-image' > <img src={photo_kubernetes}
         alt="Kubernetes"/> <p >Kubernetes</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/google-cloud.png"
+        <div className='my-skill-image' > <img src={photo_googlecloud}
         alt="GoogleCloud"/> <p >GoogleCloud</p></div>
         
         </div>

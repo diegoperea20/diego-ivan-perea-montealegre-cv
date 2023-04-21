@@ -14,7 +14,7 @@ function Contact() {
                 </a><br />
                 <a className='my-education-list'  href="mailto:diego.perea@uao.edu.co"><FaEnvelope /> Email
                 </a><br />
-                <a className='my-education-list'  href="/"> Home
+                <a className='my-education-list'  href="https://diegoperea20.github.io/diego-ivan-perea-montealegre-cv/"> Home
                 </a><br />
                 <a className='my-education-list'  href="#Projects"> Projects
                 </a>

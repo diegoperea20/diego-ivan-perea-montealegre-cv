@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <h1 >Diego </h1>
       <div>
-        <a  href="/">
+        <a  href="https://diegoperea20.github.io/diego-ivan-perea-montealegre-cv/">
           Home
         </a>
         <a  href="#Projects">

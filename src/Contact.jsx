@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-
+import photo_QR from "/src/assets/qrdiego.png";
 function Contact() {
   return (
     <div className='my-contact'>
@@ -19,8 +19,8 @@ function Contact() {
                 </a>
             </div>
             <div >
-            <img style={{borderRadius: "10px"}} src="/src/assets/qrdiego.png"
-        alt="Pandas"/>  
+            <img style={{borderRadius: "10px"}} src={photo_QR}
+        alt="QR"/>  
             
             </div>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import python from "/src/assets/python.png";
+import photo_python from "/src/assets/python.png";
 import tensorflow from "/src/assets/tensorflow.png";
 import pytorch from "/src/assets/pytorch.png";
 
@@ -20,7 +20,7 @@ function Skills() {
       <h1 className='my-skills-subtiitle'>Skills</h1>
       <div className='my-skills-set'>
         <div className='my-skill-row'>
-          <div className='my-skill-image' > <img src={python}
+          <div className='my-skill-image' > <img src={photo_python}
         alt="python"/> <p >Python</p></div>
           <div className='my-skill-image' > <img src={tensorflow}
         alt="Tensorflow"/> <p >Tensorflow</p></div>

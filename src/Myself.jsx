@@ -17,7 +17,7 @@ function Myself() {
             <div className='my-elipsed'>
             </div>
             <img
-                src="/src/assets/diego_photo.png"
+                src="../src/assets/diego_photo.png"
                 alt="photo"
                 className="my-photod"
             />

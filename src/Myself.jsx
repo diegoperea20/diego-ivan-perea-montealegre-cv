@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
+import diego from "../assets/diego_photo.png";
 function Myself() {
   return (
     <div className="my-self">
@@ -17,7 +19,7 @@ function Myself() {
             <div className='my-elipsed'>
             </div>
             <img
-                src="../src/assets/diego_photo.png"
+                src={diego}
                 alt="photo"
                 className="my-photod"
             />

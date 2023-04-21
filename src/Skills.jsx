@@ -7,7 +7,7 @@ import photo_vscode from "/src/assets/vscode.png";
 import photo_ubuntu from "/src/assets/ubuntu.png";
 import photo_cpp from "/src/assets/c++.png";
 import photo_github from "/src/assets/github.png";
-import photo_flask from "/src/assets/Flask.png";
+import photo_flask from "/src/assets/flask.png";
 import photo_powerbi from "/src/assets/powerbi.png";
 import photo_arduino from "/src/assets/arduino.png";
 

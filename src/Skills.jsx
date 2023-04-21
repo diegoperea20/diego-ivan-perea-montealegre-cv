@@ -7,45 +7,16 @@ import photo_vscode from "/src/assets/vscode.png";
 import photo_ubuntu from "/src/assets/ubuntu.png";
 import photo_cpp from "/src/assets/c++.png";
 import photo_github from "/src/assets/github.png";
-import photo_flask from "/src/assets/flask.png";
+import photo_flask from "/src/assets/Flask.png";
 import photo_powerbi from "/src/assets/powerbi.png";
 import photo_arduino from "/src/assets/arduino.png";
 
-import photo_docker from "/src/assets/docker.png";
-import photo_javascript from "/src/assets/javascript.png";
-import photo_html from "/src/assets/html5.png";
-import photo_css from "/src/assets/css.png";
-import photo_react from "/src/assets/react.png";
-import photo_ros2 from "/src/assets/ros2.png";
-import photo_platformio from "/src/assets/platformio.png";
-import photo_r from "/src/assets/r_lan.png";
-import photo_azure from "/src/assets/azure.png";
-import photo_aws from "/src/assets/aws.png";
 
-import photo_esp from "/src/assets/esp.png";
-import photo_edgeimpulse from "/src/assets/edge-impulse.png";
-import photo_chatgpt from "/src/assets/chat-gpt.png";
-import photo_kubernetes from "/src/assets/kubernetes.png";
-import photo_googlecloud from "/src/assets/google-cloud.png"
 
-import photo_pandas from "/src/assets/pandas.png";
-import photo_numpy from "/src/assets/numpy.png";
-import photo_matplotlib from "/src/assets/matplotlibb.png";
-import photo_scikit from "/src/assets/skckitleanr.png";
-import photo_keras from "/src/assets/keras.png";
-import photo_fastapi from "/src/assets/fast-api.png";
 
-import photo_pyspark from "/src/assets/pysparkk.png";
-import photo_streamlit from "/src/assets/stream.png";
-import photo_selenium from "/src/assets/selenium.png";
-import photo_bsoup from "/src/assets/beutifulsoup.png";
-import photo_opencv from "/src/assets/opencv.png";
-import photo_jupyter from "/src/assets/jupyter.png";
-import photo_seaborn from "/src/assets/seaborn.png";
 
-import photo_mysql from "/src/assets/mysql.png";
-import photo_postgresql from "/src/assets/postgresql.png";
-import photo_mongodb from "/src/assets/mongodb.png";
+
+
 
 
 
@@ -79,40 +50,40 @@ function Skills() {
         
         </div>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src={photo_docker}
+        <div className='my-skill-image' > <img src="/src/assets/docker.png"
         alt="Docker"/> <p >Docker</p></div>
-        <div className='my-skill-image' > <img src={photo_javascript}
+        <div className='my-skill-image' > <img src="/src/assets/javascript.png"
         alt="Javascript"/> <p >Javascript</p></div>
-        <div className='my-skill-image' > <img src={photo_html}
+        <div className='my-skill-image' > <img src="/src/assets/html5.png"
         alt="HTML"/> <p >HTML</p></div>
-        <div className='my-skill-image' > <img src={photo_css}
+        <div className='my-skill-image' > <img src="/src/assets/css.png"
         alt="CSS"/> <p >CSS</p></div>
-        <div className='my-skill-image' > <img src={photo_react}
+        <div className='my-skill-image' > <img src="/src/assets/react.png"
         alt="React"/> <p >React</p></div>
-        <div className='my-skill-image' > <img src={photo_ros2}
+        <div className='my-skill-image' > <img src="/src/assets/ros2.png"
         alt="ROS2"/> <p >ROS2</p></div>
-        <div className='my-skill-image' > <img src={photo_platformio}
+        <div className='my-skill-image' > <img src="/src/assets/platformio.png"
         alt="PlatformIO"/> <p >PlatformIO</p></div>
-        <div className='my-skill-image' > <img src={photo_r}
+        <div className='my-skill-image' > <img src="/src/assets/r_lan.png"
         alt="R_languague"/> <p >R</p></div>
-        <div className='my-skill-image' > <img src={photo_azure}
+        <div className='my-skill-image' > <img src="/src/assets/azure.png"
         alt="Azure"/> <p >Azure</p></div>
-        <div className='my-skill-image' > <img src={photo_aws}
+        <div className='my-skill-image' > <img src="/src/assets/aws.png"
         alt="AWS"/> <p >AWS</p> </div>
         
         </div>
 
 
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src={photo_esp}
+        <div className='my-skill-image' > <img src="/src/assets/esp.png"
         alt="ESP32"/> <p >ESP32</p> </div>
-        <div className='my-skill-image' > <img src={photo_edgeimpulse}
+        <div className='my-skill-image' > <img src="/src/assets/edge-impulse.png"
         alt="Edge Impulse"/> <p >EdgeImpulse</p></div>
-        <div className='my-skill-image' > <img src={photo_chatgpt}
+        <div className='my-skill-image' > <img src="/src/assets/chat-gpt.png"
         alt="ChatGPT"/> <p >ChatGPT</p></div>
-        <div className='my-skill-image' > <img src={photo_kubernetes}
+        <div className='my-skill-image' > <img src="/src/assets/kubernetes.png"
         alt="Kubernetes"/> <p >Kubernetes</p></div>
-        <div className='my-skill-image' > <img src={photo_googlecloud}
+        <div className='my-skill-image' > <img src="/src/assets/google-cloud.png"
         alt="GoogleCloud"/> <p >GoogleCloud</p></div>
         
         </div>
@@ -121,49 +92,49 @@ function Skills() {
       <h2 className='my-skills-subtiitle2'>Libraries</h2>
       <div className='my-skills-set'>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src={photo_pandas}
+        <div className='my-skill-image' > <img src="/src/assets/pandas.png"
         alt="Pandas"/> <p >Pandas</p> </div>
-        <div className='my-skill-image' > <img src={photo_numpy}
+        <div className='my-skill-image' > <img src="/src/assets/tensorflow.png"
         alt="Tensorflow"/> <p >Tensorflow</p></div>
-        <div className='my-skill-image' > <img src={photo_matplotlib}
+        <div className='my-skill-image' > <img src="/src/assets/numpy.png"
         alt="Numpy"/> <p >Numpy</p></div>
-        <div className='my-skill-image' > <img src={photo_scikit}
+        <div className='my-skill-image' > <img src="/src/assets/matplotlibb.png"
         alt="Matplotlib"/> <p >Matplotlib</p></div>
-        <div className='my-skill-image' > <img src={photo_scikitlearn}
+        <div className='my-skill-image' > <img src="/src/assets/skckitleanr.png"
         alt="Scikitlearn"/> <p >ScikitLearn</p></div>
-        <div className='my-skill-image' > <img src={photo_keras}
+        <div className='my-skill-image' > <img src="/src/assets/keras.png"
         alt="Keras"/> <p >Keras</p></div>
-        <div className='my-skill-image' > <img src={photo_fastapi}
+        <div className='my-skill-image' > <img src="/src/assets/fast-api.png"
         alt="FastAPI"/> <p >FastAPI</p></div>
 
        
 
         </div>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src={photo_pyspark}
+        <div className='my-skill-image' > <img src="/src/assets/pysparkk.png"
         alt="PySpark"/> <p >PySpark</p></div>
-        <div className='my-skill-image' > <img src={photo_streamlit}
+        <div className='my-skill-image' > <img src="/src/assets/stream.png"
         alt="Streamlit"/> <p >Streamlit</p></div>
-        <div className='my-skill-image' > <img src={photo_selenium}
+        <div className='my-skill-image' > <img src="/src/assets/selenium.png"
         alt="Selenium"/> <p >Selenium</p></div>
-        <div className='my-skill-image' > <img src={photo_bsoup}
+        <div className='my-skill-image' > <img src="/src/assets/beutifulsoup.png"
         alt="Selenium"/> <p >BeutifulSoup</p></div>
-        <div className='my-skill-image' > <img src={photo_opencv}
+        <div className='my-skill-image' > <img src="/src/assets/opencv.png"
         alt="OpenCV"/> <p >OpennCV</p></div>
-        <div className='my-skill-image' > <img src={photo_jupyter}
+        <div className='my-skill-image' > <img src="/src/assets/jupyter.png"
         alt="Jupyter"/> <p >Jupyter</p></div>
-         <div className='my-skill-image' > <img src={photo_seaborn}
+         <div className='my-skill-image' > <img src="/src/assets/seaborn.png"
         alt="Seaborn"/> <p >Seaborn</p></div>
         </div >
 
 
         <h2 className='my-skills-subtiitle2'>Data Bases</h2>
         <div className='my-skill-row'>
-                <div className='my-skill-image' > <img src={photo_mysql}
+                <div className='my-skill-image' > <img src="/src/assets/mysql.png"
             alt="MySQL"/> <p >MySQL</p> </div>
-                <div className='my-skill-image' > <img src={photo_postgresql}
+                <div className='my-skill-image' > <img src="/src/assets/postgresql.png"
             alt="PostgreSQL"/> <p >PostgreSQL</p> </div>
-            <div className='my-skill-image' > <img src={photo_mongodb}
+            <div className='my-skill-image' > <img src="/src/assets/mongodb.png"
             alt="MongoDB"/> <p >MondoDB</p> </div>
          </div>
 

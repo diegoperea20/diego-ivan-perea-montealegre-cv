@@ -35,7 +35,13 @@ import photo_scikitlearn from './assets/skckitleanr.png';
 import photo_keras from './assets/keras.png';
 import photo_fastapi from './assets/fast-api.png';
 
-
+import photo_pyspark from "/src/assets/pysparkk.png";
+import photo_streamlit from "/src/assets/stream.png";
+import photo_selenium from "/src/assets/selenium.png";
+import photo_bsoup from "/src/assets/beutifulsoup.png";
+import photo_opencv from "/src/assets/opencv.png";
+import photo_jupyter from "/src/assets/jupyter.png";
+import photo_seaborn from "/src/assets/seaborn.png";
 
 
 
@@ -130,19 +136,19 @@ function Skills() {
 
         </div>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src="/src/assets/pysparkk.png"
+        <div className='my-skill-image' > <img src={photo_pyspark}
         alt="PySpark"/> <p >PySpark</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/stream.png"
+        <div className='my-skill-image' > <img src={photo_streamlit}
         alt="Streamlit"/> <p >Streamlit</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/selenium.png"
+        <div className='my-skill-image' > <img src={photo_selenium}
         alt="Selenium"/> <p >Selenium</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/beutifulsoup.png"
+        <div className='my-skill-image' > <img src={photo_bsoup}
         alt="Selenium"/> <p >BeutifulSoup</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/opencv.png"
+        <div className='my-skill-image' > <img src={photo_opencv}
         alt="OpenCV"/> <p >OpennCV</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/jupyter.png"
+        <div className='my-skill-image' > <img src={photo_jupyter}
         alt="Jupyter"/> <p >Jupyter</p></div>
-         <div className='my-skill-image' > <img src="/src/assets/seaborn.png"
+         <div className='my-skill-image' > <img src={photo_seaborn}
         alt="Seaborn"/> <p >Seaborn</p></div>
         </div >
 

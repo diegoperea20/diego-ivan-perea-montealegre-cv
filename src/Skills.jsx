@@ -1,15 +1,30 @@
 import React from 'react'
+
+import python from "/src/assets/python.png";
+import tensorflow from "/src/assets/tensorflow.png";
+import pytorch from "/src/assets/pytorch.png";
+
+
+
+
+
+
+
+
+
+
+
 function Skills() {
   return (
     <div className='my-skills'>
       <h1 className='my-skills-subtiitle'>Skills</h1>
       <div className='my-skills-set'>
         <div className='my-skill-row'>
-          <div className='my-skill-image' > <img src="https://diegoperea20.github.io/diego-ivan-perea-montealegre-cv/src/assets/python.png"
+          <div className='my-skill-image' > <img src={python}
         alt="python"/> <p >Python</p></div>
-          <div className='my-skill-image' > <img src="src/assets/tensorflow.png"
+          <div className='my-skill-image' > <img src={tensorflow}
         alt="Tensorflow"/> <p >Tensorflow</p></div>
-        <div className='my-skill-image' > <img src="./src/assets/pytorch.png"
+        <div className='my-skill-image' > <img src={pytorch}
         alt="PyTorch"/> <p >PyTorch</p></div>
         <div className='my-skill-image' > <img src="/src/assets/vscode.png"
         alt="Vscode"/> <p >Vscode</p></div>

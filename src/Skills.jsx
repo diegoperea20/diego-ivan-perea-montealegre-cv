@@ -43,7 +43,9 @@ import photo_opencv from "/src/assets/opencv.png";
 import photo_jupyter from "/src/assets/jupyter.png";
 import photo_seaborn from "/src/assets/seaborn.png";
 
-
+import photo_mysql from "/src/assets/mysql.png";
+import photo_postgresql from "/src/assets/postgresql.png";
+import photo_mongodb from "/src/assets/mongodb.png";
 
 
 function Skills() {
@@ -155,11 +157,11 @@ function Skills() {
 
         <h2 className='my-skills-subtiitle2'>Data Bases</h2>
         <div className='my-skill-row'>
-                <div className='my-skill-image' > <img src="/src/assets/mysql.png"
+                <div className='my-skill-image' > <img src={photo_mysql}
             alt="MySQL"/> <p >MySQL</p> </div>
-                <div className='my-skill-image' > <img src="/src/assets/postgresql.png"
+                <div className='my-skill-image' > <img src={photo_postgresql}
             alt="PostgreSQL"/> <p >PostgreSQL</p> </div>
-            <div className='my-skill-image' > <img src="/src/assets/mongodb.png"
+            <div className='my-skill-image' > <img src={photo_mongodb}
             alt="MongoDB"/> <p >MondoDB</p> </div>
          </div>
 

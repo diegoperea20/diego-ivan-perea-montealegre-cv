@@ -16,7 +16,7 @@ function Projects() {
         "/>
         <CardProject url="https://github.com/diegoperea20/robotics_final_project/blob/main/INFORM%20ROBOTICS.docx.pdf" title="Robotic umbrella ROS2" text="Robotic sunshade or umbrella with trajectories to shade according to sun
         positioning angles 2022"/>
-        <CardProject url="/" title="Create my own website" text="I created my own website using different languages and learned tools to visualize my information, skills, projects, education and my contact.2023 "/>
+        <CardProject url="https://diegoperea20.github.io/diego-ivan-perea-montealegre-cv/" title="Create my own website" text="I created my own website using different languages and learned tools to visualize my information, skills, projects, education and my contact.2023 "/>
         
          </div>
          

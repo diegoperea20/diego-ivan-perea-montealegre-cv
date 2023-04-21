@@ -11,6 +11,14 @@ import photo_flask from "/src/assets/flask.png";
 import photo_powerbi from "/src/assets/powerbi.png";
 import photo_arduino from "/src/assets/arduino.png";
 
+import photo_docker from "/src/assets/docker.png";
+import photo_javascript from "/src/assets/javascript.png";
+import photo_html from "/src/assets/html5.png";
+import photo_css from "/src/assets/css.png";
+import photo_react from "/src/assets/react.png";
+import photo_ros2 from "/src/assets/ros2.png";
+import photo_platformio from "/src/assets/platformio.png";
+
 
 
 
@@ -50,19 +58,19 @@ function Skills() {
         
         </div>
         <div className='my-skill-row'>
-        <div className='my-skill-image' > <img src="/src/assets/docker.png"
+        <div className='my-skill-image' > <img src={photo_docker}
         alt="Docker"/> <p >Docker</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/javascript.png"
+        <div className='my-skill-image' > <img src={photo_javascript}
         alt="Javascript"/> <p >Javascript</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/html5.png"
+        <div className='my-skill-image' > <img src={photo_html}
         alt="HTML"/> <p >HTML</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/css.png"
+        <div className='my-skill-image' > <img src={photo_css}
         alt="CSS"/> <p >CSS</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/react.png"
+        <div className='my-skill-image' > <img src={photo_react}
         alt="React"/> <p >React</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/ros2.png"
+        <div className='my-skill-image' > <img src={photo_ros2}
         alt="ROS2"/> <p >ROS2</p></div>
-        <div className='my-skill-image' > <img src="/src/assets/platformio.png"
+        <div className='my-skill-image' > <img src={photo_platformio}
         alt="PlatformIO"/> <p >PlatformIO</p></div>
         <div className='my-skill-image' > <img src="/src/assets/r_lan.png"
         alt="R_languague"/> <p >R</p></div>

@@ -79,14 +79,6 @@ function Skills() {
         <div className='my-skill-row'>
         <div className='my-skill-image' > <img src={photo_docker}
         alt="Docker"/> <p >Docker</p></div>
-        <div className='my-skill-image' > <img src={photo_javascript}
-        alt="Javascript"/> <p >Javascript</p></div>
-        <div className='my-skill-image' > <img src={photo_html}
-        alt="HTML"/> <p >HTML</p></div>
-        <div className='my-skill-image' > <img src={photo_css}
-        alt="CSS"/> <p >CSS</p></div>
-        <div className='my-skill-image' > <img src={photo_react}
-        alt="React"/> <p >React</p></div>
         <div className='my-skill-image' > <img src={photo_ros2}
         alt="ROS2"/> <p >ROS2</p></div>
         <div className='my-skill-image' > <img src={photo_platformio}

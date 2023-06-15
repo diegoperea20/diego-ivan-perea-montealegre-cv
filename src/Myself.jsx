@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope,FaFile} from "react-icons/fa";
 
 import diego from "/src/assets/diego_photo.png";
 function Myself() {
@@ -67,6 +67,12 @@ function Myself() {
             <a className="my-link" href="https://github.com/diegoperea20">
               <p>
                 <FaGithub /> Github
+              </p>
+            </a>
+
+            <a className="my-link" href="https://drive.google.com/file/d/1eF_IanXIWbpjltA9B7paldLvJt3WccCG/view?usp=sharing">
+              <p>
+                <FaFile />CV
               </p>
             </a>
             <a className="my-link" href="mailto:diego.perea@uao.edu.co">

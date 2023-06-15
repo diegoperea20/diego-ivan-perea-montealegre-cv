@@ -544,6 +544,19 @@ body::-webkit-scrollbar-thumb{
     .my-elipsed ~ .my-lenguaguei {
     margin-top: 230px;
     }
+
+    .my-links{
+      padding: 0px 0px;
+    }
+
+
+
+
+
+    .my-link{
+      margin: 5px; 
+    }
+    
   /*skills celulares*/
   .my-skills{
     height: auto;

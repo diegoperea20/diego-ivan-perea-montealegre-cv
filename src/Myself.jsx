@@ -70,7 +70,7 @@ function Myself() {
               </p>
             </a>
 
-            <a className="my-link" href="https://drive.google.com/file/d/1eF_IanXIWbpjltA9B7paldLvJt3WccCG/view?usp=sharing">
+            <a className="my-link" href="https://drive.google.com/file/d/1qX-fyJH1S7B5vF8RyJofbc1qgbNghflJ/view?usp=sharing">
               <p>
                 <FaFile />CV
               </p>

@@ -103,8 +103,8 @@ body::-webkit-scrollbar-thumb{
 }
 
 .my-photod {
-  width: 350px;
-  height: 350px;
+  width: 256px;
+  height: 342px;
   z-index: 3;
   border-radius: 10%;
   position: absolute;
@@ -522,8 +522,8 @@ body::-webkit-scrollbar-thumb{
     }
     
     .my-photod {
-    width: 300px;
-    height: 300px;
+      width: 215px;
+      height: 282px;
     margin-top: 30px;
     }
     
@@ -670,7 +670,7 @@ body::-webkit-scrollbar-thumb{
   
   .my-photod {
     height: auto;
-    width: 80%;
+    width: 60%;
   }
  
   /*Skills-1200*/

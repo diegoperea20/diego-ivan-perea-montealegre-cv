@@ -7,7 +7,7 @@ function Education() {
         <a className='my-education-u' href='https://www.uao.edu.co/'>Universidad Autonoma de Occidente , Cali - Colombia</a>
         
               <ul>
-        <li><a className='my-education-list'> Mechatronics engineerstudent in process of graduation and artificial intelligence
+        <li><a className='my-education-list'> Mechatronics engineer and artificial intelligence
         specialization in process
         </a></li><br/>
         <li><a className='my-education-list' href='https://drive.google.com/file/d/1M7iQ-3HrFvVidRWsKGdACL1Nj9MgpT3Q/view'>Partipation in the 7th Meeting of initiation of Student Research and Innovation in Engineering INVESTIGA & INNOVA 2022</a></li><br/>

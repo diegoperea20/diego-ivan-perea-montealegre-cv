@@ -21,6 +21,7 @@ import photo_platformio from "/src/assets/platformio.png";
 import photo_r from "/src/assets/r_lan.png";
 import photo_azure from "/src/assets/azure.png";
 import photo_aws from "/src/assets/aws.png";
+import photo_nextjs from "/src/assets/nextjslogo.png";
 
 import photo_esp from "/src/assets/esp.png";
 import photo_edgeimpulse from "/src/assets/edge-impulse.png";
@@ -33,7 +34,7 @@ import photo_numpy from './assets/numpy.png';
 import photo_matplotlib from './assets/matplotlibb.png';
 import photo_scikitlearn from './assets/skckitleanr.png';
 import photo_keras from './assets/keras.png';
-import photo_fastapi from './assets/fast-api.png';
+import photo_pytest from './assets/pytest.png';
 
 import photo_pyspark from "/src/assets/pysparkk.png";
 import photo_streamlit from "/src/assets/stream.png";
@@ -46,6 +47,7 @@ import photo_seaborn from "/src/assets/seaborn.png";
 import photo_mysql from "/src/assets/mysql.png";
 import photo_postgresql from "/src/assets/postgresql.png";
 import photo_mongodb from "/src/assets/mongodb.png";
+import photo_sqlite from "/src/assets/sqlite.png";
 import "./skills.css";
 
 function Skills() {
@@ -89,6 +91,10 @@ function Skills() {
         alt="Azure"/> <p >Azure</p></div>
         <div className='my-skill-image' > <img src={photo_aws}
         alt="AWS"/> <p >AWS</p> </div>
+        <div className='my-skill-image' > <img src={photo_html}
+        alt="AWS"/> <p >html</p> </div>
+        <div className='my-skill-image' > <img src={photo_css}
+        alt="AWS"/> <p >css</p> </div>
         
         </div>
 
@@ -103,8 +109,13 @@ function Skills() {
         <div className='my-skill-image' > <img src={photo_kubernetes}
         alt="Kubernetes"/> <p >Kubernetes</p></div>
         <div className='my-skill-image' > <img src={photo_googlecloud}
-        alt="GoogleCloud"/> <p >GoogleCloud</p></div>
-        
+        alt="GoogleCloud"/> <p >GCP</p></div>
+        <div className='my-skill-image' > <img src={photo_react}
+        alt="React"/> <p >React</p></div>
+        <div className='my-skill-image' > <img src={photo_javascript}
+        alt="Js"/> <p >Js</p></div>
+        <div className='my-skill-image' > <img src={photo_nextjs}
+        alt="Nextjs"/> <p >Nextjs</p></div>
         </div>
 
       </div>
@@ -123,8 +134,8 @@ function Skills() {
         alt="Scikitlearn"/> <p >ScikitLearn</p></div>
         <div className='my-skill-image' > <img src={photo_keras}
         alt="Keras"/> <p >Keras</p></div>
-        <div className='my-skill-image' > <img src={photo_fastapi}
-        alt="FastAPI"/> <p >FastAPI</p></div>
+        <div className='my-skill-image' > <img src={photo_pytest}
+        alt="PyTest"/> <p >PyTest</p></div>
 
        
 
@@ -155,6 +166,8 @@ function Skills() {
             alt="PostgreSQL"/> <p >PostgreSQL</p> </div>
             <div className='my-skill-image' > <img src={photo_mongodb}
             alt="MongoDB"/> <p >MondoDB</p> </div>
+            <div className='my-skill-image' > <img src={photo_sqlite}
+            alt="SQLite"/> <p >SQLite</p> </div>
          </div>
 
          

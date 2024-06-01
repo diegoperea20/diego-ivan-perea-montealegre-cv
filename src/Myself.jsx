@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import "./myself.css";
 import { FaGithub, FaLinkedin, FaEnvelope,FaFile} from "react-icons/fa";
 
 import diego from "/src/assets/diego_photo.png";

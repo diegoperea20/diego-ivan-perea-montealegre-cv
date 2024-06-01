@@ -1,5 +1,7 @@
 import React from 'react'
 import CardProject from './CardProject'
+import "./projects.css";
+
 function Projects() {
   return (
     <div className='my-projects'>

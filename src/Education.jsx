@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./education.css";
 function Education() {
   return (
     <div className='my-education'>

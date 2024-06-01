@@ -1,0 +1,280 @@
+/* my-self */
+.my-self {
+  width: 100%;
+  height: 469px;
+  background: rgb(27, 28, 31);
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.left-div {
+  width: 30%;
+  height: 450px;
+  float: left;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.middle-div {
+  width: 40%;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+.right-div {
+  width: 30%;
+  height: 450px;
+  float: right;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.container-three-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 450px;
+  background: rgb(27, 28, 31);
+}
+
+.my-elipsed {
+  width: 430px;
+  height: 408px;
+  z-index: 1;
+  background: #18191b;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-photod {
+  width: 256px;
+  height: 342px;
+  z-index: 3;
+  border-radius: 10%;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+}
+
+.my-namei {
+  width: 100%;
+  height: 250px;
+}
+
+.my-namei h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #746868;
+}
+
+.my-namei h2 {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+}
+.my-namei-text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  overflow: hidden;
+}
+
+.my-date {
+  font-family: "Inter", sans-serif;
+  color: #746868;
+  font-weight: 600;
+}
+.my-descriptioni p {
+  font-weight: 500;
+  text-align: justify;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.my-lenguaguei {
+  width: 100%;
+  height: 180px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.language-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.language-item {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.my-lenguaguei h3 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.my-lenguaguei h4 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+}
+.my-lenguaguei p {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+}
+.my-lenguaguei a {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.my-lenguaguei a:hover {
+  color: #5dbcd2;
+}
+
+.my-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  left: 136px;
+  height: 100px;
+  z-index: 4;
+  background: #232427;
+  padding: 0px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  position: sticky;
+  border-radius: 5px;
+}
+.my-link {
+  width: 200px;
+  height: 53px;
+  left: 96px;
+  top: 42px;
+  background: #18191b;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/*Para celulares*/
+@media screen and (max-width: 780px) {
+  /* my-self celular */
+  .my-self {
+    height: auto;
+    padding: 30px;
+  }
+
+  .container-three-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .left-div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .middle-div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .my-elipsed {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .my-photod {
+    width: 215px;
+    height: 282px;
+    margin-top: 30px;
+  }
+
+  .right-div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .my-descriptioni {
+    margin-bottom: 30px;
+  }
+
+  .my-lenguaguei {
+    margin-top: 30px;
+  }
+
+  .my-elipsed ~ .my-descriptioni,
+  .my-elipsed ~ .my-lenguaguei {
+    margin-top: 230px;
+  }
+
+  .my-links {
+    padding: 0px 0px;
+  }
+
+  .my-link {
+    margin: 5px;
+  }
+}
+
+/* Para pantallas de 781px a 1200px */
+@media screen and (min-width: 781px) and (max-width: 1200px) {
+  /*my-self-1200*/
+  .my-elipsed {
+    height: 60%;
+    width: 80%;
+  }
+  .my-namei-text {
+    font-size: 36px;
+    line-height: 44px;
+    height: auto;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .my-photod {
+    height: auto;
+    width: 60%;
+  }
+}

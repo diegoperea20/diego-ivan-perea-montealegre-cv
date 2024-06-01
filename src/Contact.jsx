@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import photo_qr from "/src/assets/qrqrdiego.png";
-
+import "./contact.css";
 function Contact() {
   return (
     <div className='my-contact'>

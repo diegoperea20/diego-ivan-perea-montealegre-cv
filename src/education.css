@@ -1,0 +1,62 @@
+/*Education*/
+.my-education {
+  width: 100%;
+  height: 350px;
+  background: #18191b;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+.my-education-u {
+  width: 100%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+  display: block;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.my-education-u:hover {
+  color: #5dbcd2;
+}
+
+.my-education-list {
+  width: 100%;
+  color: #746868;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+  display: block;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.my-education-list:hover {
+  color: white;
+}
+
+/*Para celulares*/
+@media screen and (max-width: 780px) {
+  /*Education celular*/
+  .my-education {
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .my-education-u {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .my-education-list {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}

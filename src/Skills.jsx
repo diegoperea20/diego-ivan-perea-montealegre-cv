@@ -46,7 +46,7 @@ import photo_seaborn from "/src/assets/seaborn.png";
 import photo_mysql from "/src/assets/mysql.png";
 import photo_postgresql from "/src/assets/postgresql.png";
 import photo_mongodb from "/src/assets/mongodb.png";
-
+import "./skills.css";
 
 function Skills() {
   return (

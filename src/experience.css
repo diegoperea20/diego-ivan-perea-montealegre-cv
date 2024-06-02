@@ -1,15 +1,7 @@
-/* Projects*/
-.my-projects {
-  width: 100%;
-  height: 851px;
-  background: #18191b;
-  padding-left: 20px;
-  box-sizing: border-box;
-}
-
-.my-project-subtiitle {
+.my-experince-subtiitle {
   font-family: "Inter", sans-serif;
   color: white;
+  padding-top: 90px;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -17,27 +9,15 @@
 
 /*Para celulares*/
 @media screen and (max-width: 780px) {
-  /*projects celular*/
-  .my-projects {
-    height: auto;
-    
+  .my-experince-subtiitle {
+    padding-top: 20px;
   }
 }
 
 /* Para pantallas de 781px a 1200px */
 @media screen and (min-width: 781px) and (max-width: 1200px) {
-  /*projects-1200*/
-  .my-projects {
-    height: auto;
-   
-  }
 }
 
 /* Para pantallas de 1200px a 1800px */
 @media screen and (min-width: 1200px) {
-  /*projects-1200*/
-  .my-projects {
-    height: auto;
-    
-  }
 }

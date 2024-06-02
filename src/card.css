@@ -1,0 +1,102 @@
+/* Card */
+
+.my-card {
+    width: 100%;
+    border-radius: 25px;
+    background: #232427;
+    margin-top: 10px;
+    padding: 20px 20px;
+  }
+  
+  .my-card-title-div {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .my-card-title {
+    width: 100%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    display: block;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    transform: skew(-5deg);
+  }
+  
+  .my-card-title:hover {
+    color: #5dbcd2;
+  }
+  
+  .my-card-text-div {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .my-card-text {
+    width: 100%;
+    color: #746868;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    margin-top: 0px;
+    display: block;
+    text-align: left;
+  }
+  
+  /*Para celulares*/
+  @media screen and (max-width: 780px) {
+    .my-card {
+      border-radius: 15px;
+      margin-top: 20px;
+      width: calc(100% - 20px); /* 20px para cada lado de padding */
+      padding: 10px;
+    }
+  
+    .my-card-title {
+      font-size: 20px;
+    }
+  
+    .my-card-text {
+      font-size: 17px;
+    }
+  }
+  
+  /* Para pantallas de 781px a 1200px */
+  @media screen and (min-width: 781px) and (max-width: 1200px) {
+    .my-card {
+      border-radius: 15px;
+      margin-top: 20px;
+      width: calc(100% - 20px); /* 20px para cada lado de padding */
+      padding: 10px;
+    }
+  
+    .my-card-title {
+      font-size: 19px;
+    }
+  
+    .my-card-text {
+      font-size: 16px;
+    }
+  }
+  
+  /* Para pantallas de 1200px a 1800px */
+  @media screen and (min-width: 1200px) {
+    .my-card {
+      border-radius: 15px;
+      margin-top: 20px;
+      width: calc(100% - 20px); /* 20px para cada lado de padding */
+      padding: 10px;
+    }
+  
+    .my-card-title {
+      font-size: 20px;
+    }
+  
+    .my-card-text {
+      font-size: 17px;
+    }
+  }
+  

@@ -3,10 +3,10 @@ import "./education.css";
 function Education() {
   return (
     <div className='my-education'>
-        <h2 className='my-skills-subtiitle2'  style={{marginTop:"0px" , marginLeft:"20px"}} id="Education">Education</h2>
+        <h2 className='my-education-subtiitle'  id="Education">Education</h2>
         <a className='my-education-u' href='https://www.uao.edu.co/'>Universidad Autonoma de Occidente , Cali - Colombia</a>
         
-              <ul>
+              <ul><br/>
         <li><a className='my-education-list'> Mechatronics engineer and and specialization in artificial intelligence 
         </a></li><br/>
         <li><a className='my-education-list' href='https://drive.google.com/file/d/1M7iQ-3HrFvVidRWsKGdACL1Nj9MgpT3Q/view'>Partipation in the 7th Meeting of initiation of Student Research and Innovation in Engineering INVESTIGA & INNOVA 2022</a></li><br/>

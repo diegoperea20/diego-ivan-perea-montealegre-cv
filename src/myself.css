@@ -5,6 +5,7 @@
   background: rgb(27, 28, 31);
   padding: 0 60px;
   box-sizing: border-box;
+  margin-top: 76px;
 }
 
 .left-div {
@@ -133,6 +134,7 @@
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 28px;
+  margin-bottom:  16px;
 }
 
 .my-lenguaguei h4 {
@@ -186,6 +188,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  display: grid;
 }
 
 /*Para celulares*/
@@ -234,6 +237,7 @@
   .right-div {
     width: 100%;
     text-align: center;
+    height: 350px;
   }
 
   .my-descriptioni {
@@ -255,6 +259,9 @@
 
   .my-link {
     margin: 5px;
+  }
+  .my-link p{
+    font-size: 17px;
   }
 }
 

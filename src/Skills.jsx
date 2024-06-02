@@ -22,12 +22,14 @@ import photo_r from "/src/assets/r_lan.png";
 import photo_azure from "/src/assets/azure.png";
 import photo_aws from "/src/assets/aws.png";
 import photo_nextjs from "/src/assets/nextjslogo.png";
+import photo_nodejs from "/src/assets/nodejs.png";
 
 import photo_esp from "/src/assets/esp.png";
 import photo_edgeimpulse from "/src/assets/edge-impulse.png";
 import photo_chatgpt from "/src/assets/chat-gpt.png";
 import photo_kubernetes from "/src/assets/kubernetes.png";
 import photo_googlecloud from "/src/assets/google-cloud.png";
+import photo_go from "/src/assets/go.png";
 
 import photo_pandas from './assets/pandas.png';
 import photo_numpy from './assets/numpy.png';
@@ -95,6 +97,8 @@ function Skills() {
         alt="AWS"/> <p >html</p> </div>
         <div className='my-skill-image' > <img src={photo_css}
         alt="AWS"/> <p >css</p> </div>
+        <div className='my-skill-image' > <img src={photo_nodejs}
+        alt="Nodejs"/> <p >Nodejs</p> </div>
         
         </div>
 
@@ -116,6 +120,8 @@ function Skills() {
         alt="Js"/> <p >Js</p></div>
         <div className='my-skill-image' > <img src={photo_nextjs}
         alt="Nextjs"/> <p >Nextjs</p></div>
+        <div className='my-skill-image' > <img src={photo_go}
+        alt="Go"/> <p >Go</p></div>
         </div>
 
       </div>

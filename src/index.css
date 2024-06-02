@@ -1,24 +1,36 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Inter", sans-serif;
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden; /* Para evitar el desbordamiento horizontal */
+}
+
 body::-webkit-scrollbar {
   width: 7px;
   background: #18191b;
 }
+
 body::-webkit-scrollbar-thumb {
   background: white;
 }
 
+/* Home section styles */
 .home {
   width: 100%;
-  height: 100vh;
   background: rgb(27, 28, 31);
   background-size: cover;
   background-position: center;
+  overflow: hidden; /* Para evitar cualquier desbordamiento dentro de la sección home */
 }
 
+/* Navbar styles */
 .navbar {
   width: 100%;
   height: 48px;
@@ -28,6 +40,10 @@ body::-webkit-scrollbar-thumb {
   background-color: #18191b;
   padding: 0 24px;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegúrate de que la navbar esté por encima de otros elementos */
 }
 
 .navbar h1 {
@@ -52,14 +68,19 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
-/*Para celulares*/
-@media screen and (max-width: 780px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-  }
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* Media queries for different screen sizes */
 
+/* For mobile devices */
+/* For mobile devices */
+@media screen and (max-width: 780px) {
   .home {
     height: auto;
   }
@@ -74,19 +95,44 @@ body::-webkit-scrollbar-thumb {
     font-size: 24px;
   }
 
-  .navbar a {
-    padding: 8px;
-    margin: 12px;
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #18191b;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu a {
+    padding: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
     font-size: 16px;
     color: #ffffff;
   }
 
-  .navbar a:hover {
+  .menu a:hover {
     color: #746868;
+  }
+
+  body::-webkit-scrollbar {
+    display: none; /* Ocultar scrollbar en dispositivos móviles */
   }
 }
 
-/* Para pantallas de 781px a 1200px */
+/* For screens between 781px and 1200px */
 @media screen and (min-width: 781px) and (max-width: 1200px) {
   .navbar {
     height: 60px;

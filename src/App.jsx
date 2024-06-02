@@ -4,6 +4,8 @@ import Skills from "./Skills";
 import Projects from './Projects';
 import Education from './Education';
 import Contact from './Contact'
+import Experience from "./Experience";
+import Certificates from "./Certificates";
 import "./index.css";
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
   <section className="home">
   <Navbar />
   <Myself />
+  <Experience/>
   <Skills/>
   <Projects/>
   <Education/>
+  <Certificates/>
   <Contact/>
   </section>
   

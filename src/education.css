@@ -42,6 +42,15 @@
   color: white;
 }
 
+.my-education-subtiitle {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+
 /*Para celulares*/
 @media screen and (max-width: 780px) {
   /*Education celular*/

@@ -69,7 +69,7 @@ function Myself() {
 
         <a
           className="my-link"
-          href="https://drive.google.com/file/d/1hKd2u-sfs4K2CLIzKE120zpS84cTQVnc/view?usp=sharing"
+          href="https://drive.google.com/file/d/1J6e7eKrLRgOsgBUel-GBYdtMynpj9-Kf/view?usp=sharing"
         >
           <p>
             <FaFile />

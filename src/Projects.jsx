@@ -22,6 +22,7 @@ function Projects() {
         <CardProject url="https://github.com/diegoperea20/IOT-Flask-React" title="Iot project with backend and frontend " text="IOT project with Backend in  Python(Flask) and Frontend in React. 2023 "/>
         <CardProject url="https://listanime-umber.vercel.app/" title="Anime list" text="Anime list where you can filter anime by categories, value, order and status. 2024 "/>
         <CardProject url="https://classification-cats-dogs.vercel.app/" title="Nextjs application for classifying images of cats and dogs" text="Nextjs application for classifying images of cats and dogs using tensoflowjs, converting a.h5 model to tensorflowjs that is .json and .bin. 2024 "/>
+        <CardProject url="https://iris-plant-classification.vercel.app/" title="Iris Plant Classification in web" text="Nextjs Iris Plant Classification data with Tensorflow converting to .h5 model to tensorflowjs that is .json and .bin. 2024 "/>
          </div>
 
          

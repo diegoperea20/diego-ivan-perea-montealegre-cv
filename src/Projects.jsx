@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className='my-projects'>
-        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 140 projects in github</h6></h2>
+        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 150 projects in github</h6></h2>
         <CardProject url="https://minimum-temperature-melbourne.vercel.app/" title="Minimum Temperature Predictions since 1991 in Melbourne" text="Nextjs Minimum Temperature Predictions since 1991 in Melbourne with dataset Daily Minimum Temperatures in Melbourne. 2024 "/>
         <CardProject url="https://clasification-x-ray-pneumonia.vercel.app/" title="Clasification XRAY Pneumonia" text="Nextjs Classification of chest x-ray images with pneumonia and normal using the kaggle dataset Chest X-Ray Images (Pneumonia), converting to .h5 model to tensorflowjs that is .json and .bin 2024 "/>
         <CardProject url="https://qr-scanner-online.vercel.app/" title="Qr Scanner" text="Qr Scanner where you can scan with the camera (change camera) and be redirected to the scanned url and shown the url. Or you can also select the file or drag the file and be redirected to the scanned url and shown the url. 2024 "/>

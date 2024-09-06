@@ -12,7 +12,7 @@ function Myself() {
           <div className="my-namei">
             <h1>I'm</h1>
             <h2 className="my-namei-text"> Diego Iván Perea Montealegre</h2>
-            <p className="my-date">Date of birth: 20.03.2001</p>
+            <p className="my-date"></p>
           </div>
         </div>
         <div class="middle-div">

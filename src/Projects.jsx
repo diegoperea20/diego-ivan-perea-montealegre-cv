@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className='my-projects'>
-        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 150 projects in github</h6></h2>
+        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 160 projects in github</h6></h2>
         <CardProject url="https://shoptest-diegoperea.vercel.app/" title="Store Online" text="E-commerce store built with Next.js, TypeScript, and Tailwind CSS. Fast, scalable, and customizable, with shopping cart, authentication, order creation, and payments via PayPal. 2025 "/>
         <CardProject url="https://adminshoptest-diegoperea.vercel.app/sign-in" title="Admin Store Online" text="Admin E-commerce store built with Next.js, TypeScript, and Tailwind CSS. Fast, scalable, and customizable, with shopping cart, authentication, order creation, and payments via PayPal. 2025 "/>
         <CardProject url="https://react-file-input-component.vercel.app/" title="React File Input Component" text="React File Input Component in which you can Drag and drop files or select files and you can see a visualization of files like photos, pdf, .docx and .xlsx. 2024 "/>

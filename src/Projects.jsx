@@ -6,6 +6,8 @@ function Projects() {
   return (
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 160 projects in github</h6></h2>
+        <CardProject url="https://urlshortens.vercel.app/" title="Url Shortener" text="A modern, fast, and user-friendly URL shortener. 2025 "/>
+        <CardProject url="https://taskflowow.vercel.app/" title="TaskFlow" text="TaskFlow is a task management tool that allows you to create, manage, and track your tasks and have flow of tasks. 2025 "/>
         <CardProject url="https://dipassword.vercel.app/" title="DIPASSWORD" text="Password Manager,Simple to use, highly secure, and built to keep your passwords organized. Takes the hassle out of staying safe online. 2025 "/>
         <CardProject url="https://shoptest-diegoperea.vercel.app/" title="Store Online" text="E-commerce store built with Next.js, TypeScript, and Tailwind CSS. Fast, scalable, and customizable, with shopping cart, authentication, order creation, and payments via PayPal. 2025 "/>
         <CardProject url="https://adminshoptest-diegoperea.vercel.app/sign-in" title="Admin Store Online" text="Admin E-commerce store built with Next.js, TypeScript, and Tailwind CSS. Fast, scalable, and customizable, with shopping cart, authentication, order creation, and payments via PayPal. 2025 "/>
@@ -20,6 +22,11 @@ function Projects() {
         <CardProject url="https://iris-plant-classification.vercel.app/" title="Iris Plant Classification" text="Nextjs Iris Plant Classification data with Tensorflow converting to .h5 model to tensorflowjs that is .json and .bin. 2024 "/>
         <CardProject url="https://classification-cats-dogs.vercel.app/" title="Application for classifying images of cats and dogs" text="Nextjs application for classifying images of cats and dogs using tensoflowjs, converting a.h5 model to tensorflowjs that is .json and .bin. 2024 "/>
         <CardProject url="https://listanime-umber.vercel.app/" title="Anime list" text="Anime list where you can filter anime by categories, value, order and status. 2024 "/>
+        <CardProject url="https://flappy-rocket.vercel.app/" title="Flappy Rocket" text="Flappy Rocket, inspired by the flappy bird game where you can tap or click to jump and go through the tubes. 2024 "/>
+        <CardProject url="https://nextjs-flip-card-game.vercel.app/" title="Flip Card Game" text="Flip Card Game with diferents cards ,where you have to match the object in the image and you only have 5 seconds to memorize their positions and match them. 2024 "/>
+        <CardProject url="https://nextjs-snake-game-diego.vercel.app/" title="Snake Game" text="Snake Game where you can play from your PC, laptop, cell phone and tablet. 2024 "/>
+        <CardProject url="https://nextjs-pong-game.vercel.app/" title="Pong Game" text="Pong Game where you can play pong with two players from your PC and laptop. 2024 "/>
+        <CardProject url="https://tic-tac-toe-tres-en-linea.vercel.app/" title="Tic-Tac-Toe (Tres en linea)" text="Tic-Tac-Toe (Tres en linea) where you play with the machine and local multiplayer option, in which you can adjust the size of the board from 3x3 to 10x10. 2024 "/>
         <CardProject url="https://github.com/diegoperea20/IOT-Flask-React" title="Iot project with backend and frontend " text="IOT project with Backend in  Python(Flask) and Frontend in React. 2023 "/>
         <CardProject url="https://github.com/diegoperea20/diego-ivan-perea-montealegre-cv" title="Create my own website" text="I created my own website using different languages and learned tools to visualize my information, skills, projects, education and my contact.2023 "/>
         <CardProject url="https://github.com/diegoperea20/robotics_final_project/blob/main/INFORM%20ROBOTICS.docx.pdf" title="Robotic umbrella ROS2" text="Robotic sunshade or umbrella with trajectories to shade according to sun

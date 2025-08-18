@@ -6,6 +6,7 @@ function Projects() {
   return (
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 160 projects in github</h6></h2>
+        <CardProject url="https://subtrackerd.vercel.app/" title="SubTracker" text="Take control of your recurring payments. Monitor, analyze, and optimize your subscription spending with our powerful tracking platform. 2025 "/>
         <CardProject url="https://presentation-recording.vercel.app/" title="Presentation-recording" text="A modern web application for recording and managing presentations. 2025 "/>
         <CardProject url="https://urlshortens.vercel.app/" title="Url Shortener" text="A modern, fast, and user-friendly URL shortener. 2025 "/>
         <CardProject url="https://taskflowow.vercel.app/" title="TaskFlow" text="TaskFlow is a task management tool that allows you to create, manage, and track your tasks and have flow of tasks. 2025 "/>

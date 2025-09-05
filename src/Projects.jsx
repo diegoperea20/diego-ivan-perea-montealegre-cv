@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className='my-projects'>
-        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 160 projects in github</h6></h2>
+        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 170 projects in github</h6></h2>
 
         <CardProject url="https://modern-teleprompter-pro.vercel.app/" title="Modern Teleprompter Pro" text="A desktop modern teleprompter application built with Electron that has the special feature of being invisible during screen sharing in video calls, perfect for presentations and virtual meetings. 2025 "/>
         <CardProject url="https://teleprompter-pro-landing-page.vercel.app/" title="Teleprompter Pro" text="A desktop teleprompter application built with Electron that has the special feature of being invisible during screen sharing in video calls, perfect for presentations and virtual meetings. 2025 "/>      

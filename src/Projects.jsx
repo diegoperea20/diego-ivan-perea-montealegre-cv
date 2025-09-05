@@ -6,6 +6,8 @@ function Projects() {
   return (
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 160 projects in github</h6></h2>
+      
+        <CardProject url="https://tiff-viewer-pro.vercel.app/" title="TIFF Viewer Pro" text="A professional, high-performance TIFF image viewer built with cutting-edge web technologies. Designed specifically for medical imaging, scientific analysis, satellite images , space images and professional visualization with advanced support for multiple TIFF formats and bit depths. 2025 "/>
         <CardProject url="https://github.com/diegoperea20/video-meet-rooms" title="Open Video Meet" text="Open Video Meet is a modern web videoconferencing application built with Next.js and Socket It allows users to create meeting rooms, join them, and enjoy high-quality video calls with advanced features like screen sharing and real-time chat. 2025"/>
         <CardProject url="https://subtrackerd.vercel.app/" title="SubTracker" text="Take control of your recurring payments. Monitor, analyze, and optimize your subscription spending with our powerful tracking platform. 2025 "/>
         <CardProject url="https://presentation-recording.vercel.app/" title="Presentation-recording" text="A modern web application for recording and managing presentations. 2025 "/>

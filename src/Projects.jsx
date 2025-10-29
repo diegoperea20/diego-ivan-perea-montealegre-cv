@@ -7,6 +7,7 @@ function Projects() {
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 170 projects in github</h6></h2>
 
+        <CardProject url="https://github.com/diegoperea20/evolutionapi-whatsapp-rag-gemini-n8n" title="Implementation of WhatsApp RAG with n8n, Evolution API, OpenRouter, Google Gemini and Supabase" text="Implementation of a WhatsApp RAG (Retrieval-Augmented Generation) system using n8n and the Evolution API. 2025 "/>
         <CardProject url="https://modern-teleprompter-pro.vercel.app/" title="Modern Teleprompter Pro" text="A desktop modern teleprompter application built with Electron that has the special feature of being invisible during screen sharing in video calls, perfect for presentations and virtual meetings. 2025 "/>
         <CardProject url="https://animerank-diego.vercel.app/" title="AnimeRank" text="AnimeRank is a web application that allows you to create personalized anime rankings through direct comparisons between them. 2025 "/>
         <CardProject url="https://teleprompter-pro-landing-page.vercel.app/" title="Teleprompter Pro" text="A desktop teleprompter application built with Electron that has the special feature of being invisible during screen sharing in video calls, perfect for presentations and virtual meetings. 2025 "/>      

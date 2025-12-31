@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className='my-projects'>
-        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 170 projects in github</h6></h2>
+        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 190 projects in github</h6></h2>
 
         <CardProject url="https://github.com/diegoperea20/expo-react-native-listanime" title="Expo React Native listanime" text="A modern expo react native application that replicates the full functionality of the Next.js Listanime project, consuming data from REST APIs. 2025 "/>            
         <CardProject url="https://github.com/diegoperea20/flutter-listanime" title="Flutter listanime" text="A modern Flutter application that replicates the full functionality of the Next.js Listanime project, consuming data from REST APIs. 2025 "/>      

@@ -7,6 +7,7 @@ function Projects() {
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 200 projects in github</h6></h2>
 
+        <CardProject url="https://random-wheel-spinner.vercel.app/" title="Random Wheel" text="A modern, interactive random wheel spinner built with Next.js, TypeScript, and Tailwind CSS. Create custom wheels with your own items and spin to get random results with smooth animations and a beautiful UI. 2026 "/>         
         <CardProject url="https://youtube-tag-extractor-d.vercel.app/" title="YouTube Tag Extractor Tool" text="A modern web application that allows you to extract tags from YouTube videos quickly and easily. Simply enter the video URL and get all the tags used to optimize your own content. 2026 "/>    
         <CardProject url="https://github.com/diegoperea20/agent-FastAPI-tool-tasks-with-user-specific-memory" title="LangGraph Agent ReAct with Tasks Tools and Gemini with Memory" text="Integrates the AI agent with tools for tasks, user-specific memory, ensuring that each user has their own isolated conversation history and context. 2026 "/>    
         <CardProject url="https://github.com/diegoperea20/langGraph-agent-ReAct-and-gemini-with-memory-postgresql" title="LangGraph Agent ReAct and Gemini with Memory" text="A sophisticated AI agent built with LangGraph that implements the ReAct (Reasoning and Acting) pattern, powered by Google's Gemini AI and enhanced with persistent memory storage using PostgreSQL. 2026 "/>        

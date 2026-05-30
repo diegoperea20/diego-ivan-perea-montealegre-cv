@@ -7,7 +7,9 @@ function Projects() {
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 200 projects in github</h6></h2>
 
-
+      
+        <CardProject url="https://github.com/diegoperea20/SUPER-RAG-Multimodal-FastAPI-Docling-LangChain-Qdrant" title="SUPER RAG Multimodal FastAPI Docling LangChain Qdrant" text="SUPER RAG Multimodal system with support for PDFs, images, and text documents built with FastAPI, Docling, LangChain, and Qdrant. 2026 "/>      
+        <CardProject url="https://finanzappd.vercel.app/" title="FinanzApp" text="Gestión de finanzas mensualesControla ingresos, gastos, ahorro e inversiones de cada mes. 2026 "/>      
         <CardProject url="https://github.com/diegoperea20/ASP.NET-10-WEB-API-Google-Auth-Backend-Tasks" title="ASP.NET 10 WEB API Google Auth Backend Tasks" text="Backend built with ASP.net 10, implementing robust authentication via JWT and Google OAuth. It is designed to be secure, fast crud tasks, and easy to integrate with modern frontends like Next.js. 2026 "/>      
         <CardProject url="https://github.com/diegoperea20/listanime-Vuejs" title="listanime Vuejs" text="Anime list in Vue.js where you can filter anime by categories, value, order and status. In addition you can search by name and enter and its information sheet where you can see the information of the anime in Spanish, categories, title, state and its corresponding image. 2026 "/> 
         <CardProject url="https://git-hub-profile-analytics.vercel.app/" title="GitHub Profile Analytics" text="A comprehensive web application that provides in-depth analytics and insights for any GitHub profile. Built with Next.js, TypeScript, and Tailwind CSS, this tool offers a beautiful and responsive dashboard to analyze GitHub user statistics, repository data, and development patterns. 2026 "/> 

@@ -7,7 +7,10 @@ function Projects() {
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 200 projects in github</h6></h2>
 
-
+        
+        <CardProject url="https://pdfopenlove.vercel.app" title="PDFOpenLove" text="PDFOpenLove Free online PDF tools Merge, Split, Edit & Sign PDFs directly in your browser. 2026 "/> 
+        <CardProject url="https://github.com/diegoperea20/Financial-Anomaly-Detection" title="Financial Anomaly Detection" text="A machine learning project focused on detecting financial fraud using anomaly detection techniques. It combines unsupervised, supervised, and ensemble approaches to identify fraudulent transactions in various real world scenarios. 2026 "/>   
+        <CardProject url="https://listanimes-angular.vercel.app/" title="Listanimes Angular" text="Anime catalog web application built with Angular 21.2 and Tailwind CSS v4. Browse, filter, sort, and search through a curated collection of anime. 2026 "/>   
         <CardProject url="https://github.com/diegoperea20/Microfrontend-listanime" title="Microfrontend listanime" text="A microfrontend architecture that transforms the monolithic listanime-Vuejs (https://github.com/diegoperea20/listanime-Vuejs) application into a modular, scalable system using React , Vue , and Webpack 5 Module Federation. 2026 "/>   
         <CardProject url="https://linkedin-posts-formatter.vercel.app/" title="linkedin Post Formatter" text="A free, open-source web tool to format your LinkedIn posts with Bold, Italic, Underline, Strikethrough, bullet lists, and numbered lists with a live LinkedIn style preview. 2026 "/>   
         <CardProject url="https://github.com/diegoperea20/FastAPI-API-Gateway-gRPC-Microservices" title="FastAPI API Gateway gRPC Microservices" text="A production-ready microservices architecture built with FastAPI (Gateway), gRPC (internal services), SQLAlchemy, and JWT authentication. Internal service-to-service communication uses gRPC for high-performance, strongly-typed contracts. 2026 "/>  

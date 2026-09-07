@@ -7,7 +7,8 @@ function Projects() {
     <div className='my-projects'>
         <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 200 projects in github</h6></h2>
 
-        
+        <CardProject url="https://anonymous-unliked.vercel.app" title="Anonymous UnLiked" text="Anonymous UnLiked Anonymous social network of company reviews. Sign in with LinkedIn, verify your profile, and publish 1–5 star reviews about companies all under a random public username. Your real name and email are never exposed. 2026 "/> 
+        <CardProject url="https://dstack-game.vercel.app" title="StackGame" text="3D web Stack type game with a dual-theme system Ketchapp and 8-bit Arcade, super chill procedural music, full configuration and 100% responsive design. 2026 "/> 
         <CardProject url="https://pdfopenlove.vercel.app" title="PDFOpenLove" text="PDFOpenLove Free online PDF tools Merge, Split, Edit & Sign PDFs directly in your browser. 2026 "/> 
         <CardProject url="https://github.com/diegoperea20/Financial-Anomaly-Detection" title="Financial Anomaly Detection" text="A machine learning project focused on detecting financial fraud using anomaly detection techniques. It combines unsupervised, supervised, and ensemble approaches to identify fraudulent transactions in various real world scenarios. 2026 "/>   
         <CardProject url="https://listanimes-angular.vercel.app/" title="Listanimes Angular" text="Anime catalog web application built with Angular 21.2 and Tailwind CSS v4. Browse, filter, sort, and search through a curated collection of anime. 2026 "/>   

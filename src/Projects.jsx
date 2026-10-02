@@ -5,8 +5,10 @@ import "./projects.css";
 function Projects() {
   return (
     <div className='my-projects'>
-        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 200 projects in github</h6></h2>
+        <h2 className='my-project-subtiitle'  id="Projects">Projects <h6>More than 250 projects in github</h6></h2>
 
+        <CardProject url="https://github.com/diegoperea20/KneeAgent-Lateral-Knee-Radiograph-X-Ray-Analysis-Agent" title="KneeAgent — Lateral Knee Radiograph X-Ray Analysis Agent" text="Descriptive lateral knee X-ray assistant: segments femoral condyles, patella & tibia (YOLO26), computes morphological/spatial/clinical metrics, and explains results via LLM. WebSocket + Tavily search when needed. Not for diagnosis. 2026 "/>
+        <CardProject url="https://github.com/diegoperea20/LeavesAgent-Plant-Leaves-Instance-Segmentation" title="LeavesAgent — Plant Leaves Instance Segmentation" text="Informational (non-diagnostic) YOLO26m-seg + LLM agent that segments plant leaves across 9 classes and explains Nivel 1/2/3 metrics in the user's language (ES/EN). 2026 "/> 
         <CardProject url="https://anonymous-unliked.vercel.app" title="Anonymous UnLiked" text="Anonymous UnLiked Anonymous social network of company reviews. Sign in with LinkedIn, verify your profile, and publish 1–5 star reviews about companies all under a random public username. Your real name and email are never exposed. 2026 "/> 
         <CardProject url="https://dstack-game.vercel.app" title="StackGame" text="3D web Stack type game with a dual-theme system Ketchapp and 8-bit Arcade, super chill procedural music, full configuration and 100% responsive design. 2026 "/> 
         <CardProject url="https://pdfopenlove.vercel.app" title="PDFOpenLove" text="PDFOpenLove Free online PDF tools Merge, Split, Edit & Sign PDFs directly in your browser. 2026 "/> 

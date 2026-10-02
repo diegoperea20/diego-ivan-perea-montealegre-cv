@@ -22,10 +22,7 @@ function Myself() {
         <div class="right-div">
           <div className="my-descriptioni">
             <p>
-              Curious Mechatronic engineer with specialization in artificial
-              intelligence, currently pursuing a master's degree in artificial intelligence and data science. Loves to learn, adapts and grows in his knowledge, effective leader who knows how to identify when it is
-              time to lead. Prioritizes growth over stability. Innovative
-              thinking. Able to work in a team and self-manage.
+              Curious Master’s Degree (M.S.) in Artificial Intelligence and Data Science with a specialization in Artificial Intelligence and Mechatronics Engineer. Loves to learn, adapts and grows in his knowledge, effective leader who knows how to identify when it is time to lead. Prioritizes growth over stability. Innovative thinking. Able to work in a team and self-manage.
             </p>
           </div>
           <div className="my-lenguaguei">
